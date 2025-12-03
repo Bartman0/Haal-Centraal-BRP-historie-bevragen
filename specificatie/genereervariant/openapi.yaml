@@ -409,8 +409,6 @@ components:
           type: array
           items:
             $ref: '#/components/schemas/Partner'
-        opschortingBijhouding:
-          $ref: '#/components/schemas/OpschortingBijhouding'
         geheimhoudingPersoonsgegevens:
           $ref: '#/components/schemas/GeheimhoudingPersoonsgegevens'
     BadRequestFoutbericht:
